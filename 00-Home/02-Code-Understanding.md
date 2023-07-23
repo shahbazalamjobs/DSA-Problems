@@ -49,7 +49,7 @@ Overall, this code efficiently finds the largest element in the vector by iterat
 **********
 
 ```cpp
-explain this: for (auto &i : arr) {
+for (auto &i : arr) {
     mx = max(mx, i);
 }
 ```
