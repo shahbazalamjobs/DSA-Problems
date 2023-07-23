@@ -46,12 +46,12 @@ int main() {
 
 Output:
 ```
-Is it raining? 1
-Is it sunny? 0
+Is it raining?: 1
+Is it sunny?: 0
 You might need an umbrella!
 It's not sunny today.
-Can buy item? 1
-Cannot buy item? 0
+Can buy item?: 1
+Cannot buy item?: 0
 ```
 
 - In the above code, we define two boolean variables `isRaining` and `isSunny`, and then use them in conditional statements to print appropriate messages. 
