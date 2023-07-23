@@ -50,4 +50,5 @@ Can buy item? 1
 Cannot buy item? 0
 ```
 
-In the above code, we define two boolean variables `isRaining` and `isSunny`, and then use them in conditional statements to print appropriate messages. We also demonstrate the use of logical operators (`||` for OR and `!` for NOT) to manipulate boolean values and store the results in other boolean variables.
+In the above code, we define two boolean variables `isRaining` and `isSunny`, and then use them in conditional statements to print appropriate messages. 
+<br>We also demonstrate the use of logical operators (`||` for OR and `!` for NOT) to manipulate boolean values and store the results in other boolean variables.
