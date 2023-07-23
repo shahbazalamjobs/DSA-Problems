@@ -1,3 +1,5 @@
+## Booleans in C++
+
 - In C++, `bool` is a data type representing a boolean value that can have two states: `true` or `false`.
 - It is useful for conditions and logical operations, where you need to express whether something is true or false.
 - The `bool` data type is part of the C++ Standard Library and is used extensively in C++ programming.
