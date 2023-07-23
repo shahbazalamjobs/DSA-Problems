@@ -1,6 +1,6 @@
-### Pointer Arithmetic
+## Pointer Arithmetic
 
-### To find the largest element in an array using recursion in C++, you can implement a recursive function that compares elements and keeps track of the largest value encountered so far. Here's a sample C++ code to achieve this:
+- To find the largest element in an array using recursion in C++, you can implement a recursive function that compares elements and keeps track of the largest value encountered so far. Here's a sample C++ code to achieve this:
 
 ```cpp
 #include <iostream>
