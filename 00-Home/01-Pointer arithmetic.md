@@ -37,7 +37,7 @@ int main() {
 }
 ```
 
-### In this code, the `findLargestElement` function takes an array `arr` and the size of the array `n`. 
+- In this code, the `findLargestElement` function takes an array `arr` and the size of the array `n`. 
 - It uses recursion to find the largest element in the array by dividing the problem into a smaller subproblem. 
 - The base case is when the array contains only one element, in which case that element is considered the largest. 
 - In the recursive case, the function finds the largest element in the rest of the array (excluding the first element) and compares it with the first element to find the overall largest element.
