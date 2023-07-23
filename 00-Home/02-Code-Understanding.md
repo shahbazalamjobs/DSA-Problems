@@ -7,9 +7,6 @@ int largest(vector<int> &arr, int n)
         return mx;
     }
 ```
-
-**********
-
 This code is a C++ function that finds the largest element in a vector of integers using a loop. Let's break down the code step by step:
 
 1. Function signature: 
