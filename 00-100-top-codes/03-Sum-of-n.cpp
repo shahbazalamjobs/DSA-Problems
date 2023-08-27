@@ -9,8 +9,6 @@ int main()
     int num = 0;
     cin>> num;
     
-    // Condition to check if the num odd or even
-    
     int  sum = 0;
     
     for (int i = 1; i <= num; i++) {
@@ -30,9 +28,7 @@ int main()
 {
     int num = 0;
     cin>> num;
-    
-    //Condition to check if the num odd or even
-    
+        
     int sum = 0;
     
     sum = num * (num + 1) / 2 ;
@@ -61,7 +57,6 @@ int main()
     int num = 0;
     cin>> num;
     
-    //Condition to check if the num odd or even
     int sum = sumRecursive(num);
     
     cout << sum;
