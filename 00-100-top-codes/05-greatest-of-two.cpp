@@ -26,4 +26,6 @@ int main()
 
 // 2. max function
 
-cout << max(num1,num2) << " is greater";
+num1 = 5, num2 = 10;
+cout << max(num1,num2) << " is greater";     // 10 is greater
+// max, min function are inside lib math.h
