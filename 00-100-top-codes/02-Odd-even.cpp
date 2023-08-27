@@ -1,5 +1,4 @@
-
-// 1. using if-else
+// 1. if else statement
 
 #include <iostream>
 using namespace std;
@@ -21,19 +20,45 @@ int main()
 }
 
 
-// 2. using ternary
+// 2. using ternary operator
 
 #include <iostream>
-namespace std;
+using namespace std;
 
-int main ()
+int main()
 {
-    int number;
-    cout << "Enter a number:"; cin >> number;
-
+    int num;
+    cin>> num;
     
-    //Checking if the number is divisible by 2
-    number % 2 == 0 ? cout << "Even":cout << "Odd";
+    //Condition to check if the num odd or even
+    
+    string result = (num % 2 == 0) ? "Even" : "Odd";
+    cout << result;
+    
+    return 0;
+}
+
+// 3. using bool
+
+#include <iostream>
+using namespace std;
+
+bool isEven (int num) {
+    return (!(num & 1)) ;   
+}
+
+int main()
+{
+    int num;
+    cin>> num;
+    
+    //Condition to check if the num odd or even
+    
+    if(isEven(num)){
+        cout << "Even";
+    }
+    else 
+        cout <<"Odd";
     
     return 0;
 }
