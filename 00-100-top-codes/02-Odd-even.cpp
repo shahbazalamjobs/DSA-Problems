@@ -38,7 +38,7 @@ int main()
     return 0;
 }
 
-// 3. using bool
+// 3. using bitwise operator
 
 #include <iostream>
 using namespace std;
