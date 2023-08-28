@@ -40,8 +40,7 @@ int main() {
 
 // 2. 
 
-// C++ program to find the prime numbers
-// between a given interval
+// T.C: O(N2)
 
 #include <bits/stdc++.h>
 using namespace std;
