@@ -1,6 +1,6 @@
 // Program to find Prime Numbers Between given Interval
 
-// 1. 
+// 1. T.C: O( n ^ 3/2
 
 #include <bits/stdc++.h>
 using namespace std;
