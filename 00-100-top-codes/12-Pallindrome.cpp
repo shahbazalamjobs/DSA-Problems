@@ -1,5 +1,4 @@
-// 
-
+// Palindrome Program in C++
 
 // 1. Using inbuilt stl,  Time Complexity: O(N)
 
