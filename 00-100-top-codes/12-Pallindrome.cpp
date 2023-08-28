@@ -91,4 +91,4 @@ int main ()
 
 }
 
-// 4. We can also use loop to find reverse
+// 4. We can also use loop instead of function in 3. to find reverse
