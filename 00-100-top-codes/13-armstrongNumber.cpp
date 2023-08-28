@@ -1,6 +1,6 @@
 // Armstrong Number
 
-// 1.
+// 1. Naive approach
 
 // C++ program to determine whether the number is Armstrong number or not
 #include <bits/stdc++.h>
