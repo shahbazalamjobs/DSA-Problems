@@ -1,6 +1,6 @@
 // Program for Sum of the digits of a given number
 
-// 1.  using loop T.C: O(N)
+// 1.  using loop T.C: O(log N), where N is the value of the input number
 #include <iostream>
 using namespace std;
 
