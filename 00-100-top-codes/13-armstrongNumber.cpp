@@ -14,7 +14,24 @@ int power(int x, unsigned int y)
 	if (y % 2 == 0)
 		return power(x, y / 2) * power(x, y / 2);
 	return x * power(x, y / 2) * power(x, y / 2);
+
+/*
+
+More optimized power
+	int power(int x, unsigned int y) {
+	    if (y == 0)
+	        return 1;
+	
+	    int temp = power(x, y / 2);
+	    
+	    if (y % 2 == 0)
+	        return temp * temp;
+	    else
+	        return x * temp * temp;
+	}	
 }
+
+*/
 
 /* Function to calculate order of the number */
 int order(int x)
@@ -86,3 +103,36 @@ int power(int x, unsigned int y) {
 */
 
 
+// 2. 
+
+// C++ program to check whether the
+// number is an Armstrong number or not
+#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
+
+// Driver Code
+int main()
+{
+	int n = 1465112058;
+	int temp = n;
+	int p = 0;
+    	int digit = (int)log10(n) + 1;
+
+	// Function to calculate the sum of individual digits
+	while (n > 0) {
+		int rem = n % 10;
+		p = (p) + (pow(rem, digit));
+		n = n / 10;
+	}
+
+	// Condition to check whether the value
+	// of P equals to user input or not.
+	if (temp == p) {
+		cout << ("Yes. It is Armstrong No.");
+	}
+	else {
+		cout << ("No. It is not an Armstrong No.");
+	}
+	return 0;
+}
