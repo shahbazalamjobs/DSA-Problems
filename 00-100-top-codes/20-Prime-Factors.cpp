@@ -1,4 +1,4 @@
-// C++ program to print all prime factors 
+// Finding all prime factors 
 
 #include <bits/stdc++.h>
 using namespace std;
