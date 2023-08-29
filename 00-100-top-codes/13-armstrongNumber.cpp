@@ -2,7 +2,7 @@
 
 // 1. Naive approach
 
-// C++ program to determine whether the number is Armstrong number or not
+// C++ program to determine whether the number is Armstrong number or not O(logN)
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -105,8 +105,7 @@ int power(int x, unsigned int y) {
 
 // 2. 
 
-// C++ program to check whether the
-// number is an Armstrong number or not
+// C++ program to check whether the number is an Armstrong number or not O(logN)
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
@@ -135,4 +134,33 @@ int main()
 		cout << ("No. It is not an Armstrong No.");
 	}
 	return 0;
+}
+
+
+// 3. using string O(N)
+
+// C++ program to check whether the number is Armstrong number or not
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string armstrong(int n)
+{
+	string number = to_string(n);
+
+	n = number.length();
+	long long output = 0;
+	for (char i : number)
+		output = output + (long)pow((i - '0'), n);
+
+	if (output == stoll(number))
+		return ("True");
+	else
+		return ("False");
+}
+
+int main()
+{
+	cout << armstrong(153) << endl;
+	cout << armstrong(1253) << endl;
 }
