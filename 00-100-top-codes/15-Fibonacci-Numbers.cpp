@@ -15,7 +15,7 @@ int main()
     // Here we are printing 0th and 1st terms
     if(num == 1) 
       cout << a;
-    else {
+    else 
       cout << a << ", " << b << ", ";
     
     int nextTerm;
