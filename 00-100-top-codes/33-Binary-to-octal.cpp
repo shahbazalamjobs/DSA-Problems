@@ -1,8 +1,10 @@
 // Binary to Octal
 
-// 1. GFG: https://www.geeksforgeeks.org/cpp-program-for-binary-to-octal-conversion/
+// 1. We can convert binary to dec then dec to oct
 
-// 2. We will first convert the Binary number into Decimal and then convert the Decimal number into Octal
+// 2. GFG: https://www.geeksforgeeks.org/cpp-program-for-binary-to-octal-conversion/
+
+// 3. We will first convert the Binary number into Decimal and then convert the Decimal number into Octal
 
 #include<iostream>
 #include<math.h>
