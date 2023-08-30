@@ -6,3 +6,4 @@
 4. Tempelate GFG: [Link](https://www.geeksforgeeks.org/templates-cpp/)
 5. Typedef GFG: [Link](https://www.geeksforgeeks.org/typedef-in-c/)
 6. Macro GFG: [Link](https://www.geeksforgeeks.org/macros-and-its-types-in-c-cpp/)
+7. OOPS from GFG: [Link](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)
