@@ -36,7 +36,7 @@ int main()
 }
 
 
-// 2. Using conditional for loop
+// 2. Using conditional for loop: Time Complexity: O(min(a,b))
 
 #include <bits/stdc++.h>
 using namespace std;
