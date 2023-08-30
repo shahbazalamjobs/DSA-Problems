@@ -39,7 +39,7 @@ int main()
 	cout << binaryToDecimal(num) << endl;
 }
 
-// 2. 
+// 2. When input is string : O(n)
 
 // Program to convert binary to decimal when input is represented as binary string.
 #include <iostream>
