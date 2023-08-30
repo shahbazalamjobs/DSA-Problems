@@ -70,3 +70,29 @@ int main()
 	string num = "10101001";
 	cout << binaryToDecimal(num) << endl;
 }
+
+
+// 3. using bitset Class
+
+/*
+to_ulong(): Converts bitset to unsigned long.
+to_ullong(): Converts bitset to unsigned long long.
+*/
+
+#include <bitset>
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	string binary_string = "1101";
+	// Assuming 4-bit integer, adjust the size as needed
+	bitset<4> bits(binary_string);
+
+	unsigned long decimal_value = bits.to_ulong();
+	cout << decimal_value << endl;
+
+	return 0;
+}
+
+// TC: O(n) where n is the number of bits.
